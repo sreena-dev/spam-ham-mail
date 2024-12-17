@@ -13,7 +13,7 @@ import streamlit as st
 nltk.download('stopwords')
 
 # Load the dataset (replace with the path to your dataset)
-df = pd.read_csv("D:/PYTHON_ML/Data Sets/MailSpamDataset.csv")
+df = pd.read_csv("MailSpamDataset.csv")
 
 # Preprocess the text (remove punctuation, lowercasing, and stopwords)
 def preprocess_text(text):
